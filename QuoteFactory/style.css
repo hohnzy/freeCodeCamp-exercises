@@ -1,0 +1,59 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255,255,230,1);
+  padding: 10px;
+}
+
+h1 {
+	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 70px;
+}
+
+h2 {
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.btn:active {
+  outline: none;
+}
+.btn:focus {
+  outline: none;
+}
+
+.marged {
+  margin-top: 40px;
+}
+
+.framed {
+  border: 2px solid rgba(100, 100, 100, 1);
+  border-radius: 15px;
+  background-image: url("https://41.media.tumblr.com/e2353c0ff8c0a1ad37d6a81192c7a52a/tumblr_nxxkirnqQV1ulu97ro1_540.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.lowFramed {
+  border: 1px solid rgba(100,100,100,1);
+  margin: 1px;
+  border-radius: 13px;
+  padding: 40px 30px 25px 30px;
+}
+
+.quote {
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.signature {
+  font-family: Calligraffitti;
+  text-align: right;
+  padding-top: 25px;
+  font-size: 28px;
+}
